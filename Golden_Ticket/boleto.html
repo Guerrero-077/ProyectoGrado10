@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Compra De Boletos</title>
+    <link rel="stylesheet" href="css/estilos.css">
+    <link rel="stylesheet" href="css/normalize.css">
+    <!-- GOOGLE FONTs -->
+    <link href="https://fonts.googleapis.com/css?family=Quicksand" rel="stylesheet">
+    <!-- FONT AWESOME -->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css"
+        integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
+    <!-- ANIMATE CSS -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.0/animate.min.css">
+
+</head>
+
+<body >
+    <header class="header animated bounceInUp">
+        <nav class="nav container" id="nav">
+            <a href="index.html">
+                <h2 class="nav__logo">Golden Ticket</h2>
+            </a>
+
+            <ul class="nav__links">
+
+                <li class="nav__item">
+                    <a href="index.html" class="nav__link">Inicio</a>
+                </li>
+                <li class="nav__item">
+                    <a href="contactos.html" class="nav__link">contactos</a>
+                </li>
+
+
+            </ul>
+
+            <a href="#nav" class="nav__hamburguer">
+                <img src="./assets/menu.svg" class="nav__icon">
+            </a>
+
+            <a href="#" class="nav__close">
+                <img src="./assets/close.svg" class="nav__icon">
+            </a>
+        </nav>
+    </header>
+
+    <div class=" animated bounceInUp">
+        <img class="mostra" src="img/Morat.jpg" alt="">
+        <img class="ocultar" src="img/resmorat.jpg" alt="">
+    </div>
+   
+
+    <div class="biografia animated bounceInUp">
+        <h2>BIOGRAFIA</h2>
+        <p class="bio">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Blanditiis aspernatur pariatur modi
+            consectetur eum necessitatibus. Quasi est dolores alias et excepturi maxime illum distinctio. Necessitatibus
+            obcaecati saepe quisquam ipsam! Animi. Lorem ipsum dolor sit amet consectetur adipisicing elit. Quasi
+            mollitia consequuntur quos aperiam maxime perferendis consequatur, harum accusamus, suscipit necessitatibus
+            deserunt laudantium, voluptatem sunt pariatur? Molestiae adipisci officiis quae at?</p>
+    </div>
+    <div class="conciertos">
+
+        <div class="container__card animated bounceInUp">
+            <div class="card__father">
+                <div class="card">
+                    <div class="card__front" id="normal_1" style="background-image: url(img/normal_2.jpg);">
+                        <div class="bg"></div>
+                        <div class="body__card_front">
+                            <h1>NORMAL</h1>
+                        </div>
+                    </div>
+                    <div class="card__back">
+                        <div class="body__card_back">
+                            <h1>Descripcion </h1>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Pariatur ab quas
+                                recusandae voluptatum aliquid te
+                            </p>
+
+                            <form>
+
+                                <input class="buu"  id="s"  min="1" max="100" class="input-text" type="number" placeholder="CANTIDAD" required>
+
+                                <a href="#">
+                                    <input  type="submit" value="comprar" required onclick="comSta()">
+                                </a>
+
+                            </form>
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+
+            <div class="card__father">
+                <div class="card">
+                    <div class="card__front" id="vip" style="background-image: url(img/vip_2.jpg) ;">
+                        <div class="bg"></div>
+                        <div class="body__card_front">
+                            <h1>VIP</h1>
+                        </div>
+                    </div>
+                    <div class="card__back">
+                        <div class="body__card_back">
+                            <h1>Descripcion</h1>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Pariatur ab quas
+                                recusandae voluptatum aliquid te
+                            </p>
+                            <form>
+
+                                <input class="buu" id="z" min="1" max="10" class="input-text" type="number" placeholder="CANTIDAD" required >
+
+                                <a href="#">
+                                    <input class="buu" type="submit" value="comprar" required onclick="vipRes()">
+                                </a>
+
+                            </form>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <footer>
+            <div class="barra">
+                <nav class="nav container" id="nav">
+                    <a href="index.html">
+                        <h2 class="nav__logo">Golden Ticket</h2>
+                    </a>
+                </nav>
+            </div>
+        </footer>
+
+</body>
+<script src="js/pgprincipal.js"></script>
+</html>
